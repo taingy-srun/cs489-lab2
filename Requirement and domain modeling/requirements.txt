@@ -1,0 +1,10 @@
+- The system should allow users to sign in
+- The system should have surgery locations
+- The system should maintain the dentist info, patient info
+- The system should allow patients to request, cancel, or change their appointments
+- The system should allow dentists to view their appointments
+- The system should allow the OM to book the appointments
+- The system should allow the OM to register dentists and patients
+- The system should send the confirmation email after booking the appointments
+- The system should not allow dentists to have more than 5 appointments in any given week
+- The system should not allow patients to request appointments if they have an outstanding unpaid bill
