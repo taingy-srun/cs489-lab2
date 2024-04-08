@@ -5,7 +5,7 @@ CREATE TABLE users
     password VARCHAR(255)
 );
 
-CREATE TABLE Addresses
+CREATE TABLE addresses
 (
     address_id INT PRIMARY KEY,
     street     VARCHAR(45),
@@ -43,7 +43,7 @@ CREATE TABLE dentists
     specialization_id INT
 );
 
-CREATE TABLE Specializations
+CREATE TABLE specializations
 (
     specialization_id INT PRIMARY KEY,
     title             VARCHAR(45)
