@@ -49,7 +49,7 @@ CREATE TABLE Specializations
     title             VARCHAR(45)
 );
 
-CREATE TABLE SurgeryLocations
+CREATE TABLE surgery_locations
 (
     surgery_location_id INT PRIMARY KEY,
     phone               VARCHAR(45),
