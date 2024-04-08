@@ -75,3 +75,12 @@ CREATE TABLE bills
     patient_id     INT,
     appointment_id INT
 );
+
+SELECT * FROM dentists ORDER BY lastname;
+
+SELECT a.*, p.* FROM appointments a JOIN patients p ON a.patient_id = p.patient_id
+         WHERE dentist_id= :dentist_id;
+
+SELECT * FROM appointments WHERE surgery_location_id= :surgery_location_id;
+
+SELECT * FROM appointments WHERE patient_id= :patient_id AND date_time= :date_time;
